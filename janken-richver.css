@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #ffe69d;
+    text-align:left;
+    font-size: 32px;
+    font-weight: bold;
+}
+header{
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+    font-size: 30px;
+}
+main{
+    /* border-bottom:1px solid #ccc; */
+    text-align: center;
+}
+/* 選択ボタン背景透過&枠線消す */
+#gu_btn{
+    mix-blend-mode: multiply;
+    border: none;
+}
+#cho_btn{
+    mix-blend-mode: multiply;
+    border: none;
+}
+#pa_btn{
+    mix-blend-mode: multiply;
+    border: none;
+}
+/* 勝った時のあっち向いてホイの方向を選択 */
+#right_btn{
+    transform: rotateZ(90deg);
+    mix-blend-mode: multiply;
+    border: none;
+}
+#up_btn{
+    transform: rotate(0);
+    mix-blend-mode: multiply;
+    border: none;
+}
+#left_btn{
+    transform: rotate(-90deg);
+    mix-blend-mode: multiply;
+    border: none;
+}
+#down_btn{
+    transform: rotateX(180deg);
+    mix-blend-mode: multiply;
+    border: none;
+}
+
+/* 負けた時にあっち向いてホイの顔の向きを選択 */
+#right_hito{
+    mix-blend-mode: multiply;
+    border: none;
+}
+#up_hito{
+    mix-blend-mode: multiply;
+    border: none;
+}
+#left_hito{
+    mix-blend-mode: multiply;
+    border: none;
+}
+#down_hito{
+    mix-blend-mode: multiply;
+    border: none;
+}
+
+
+footer{
+    background-color: #ffffff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+#pc_hands {
+    width: 200px;
+}
+
+#judgment {
+    color: red;
+    font-size: 100px;
+
+}
